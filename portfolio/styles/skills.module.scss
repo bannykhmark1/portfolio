@@ -1,0 +1,133 @@
+$primary_blue: #2106b5;
+$color-skills: #2408ba;
+.skills_container {
+    margin: 0 auto;
+    margin-top: 350px;
+    width: 1270px;
+}
+
+.skills {
+    margin-left: 300px;
+    margin-right: 30px;
+    h1 {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 134.52%;
+        color: $primary_blue;
+        letter-spacing: -0.03em;
+        width: 100%;
+    }
+}
+.container_border_and_heading {
+    display: flex;
+}
+
+.border_left,
+.border_right {
+    align-self: center;
+}
+
+.js,
+.css3,
+.git,
+.html,
+.react {
+    width: 70px;
+    height: 70px;
+    margin-right: 25px;
+
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
+}
+
+.all_skills {
+    margin-top: 100px;
+    width: 100%;
+    p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 29.5422px;
+        margin-bottom: 9px;
+        margin-top: 0;
+        line-height: 36px;
+        color: $color-skills;
+    }
+}
+
+.js_skills,
+.react_skills,
+.html_skills,
+.css_skills,
+.git_skills {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.js_skills,
+.react_skills,
+.html_skills,
+.css_skills {
+    display: flex;
+    margin-bottom: 76px;
+}
+
+.progress {
+    position: relative;
+    width: 600px;
+    height: 13px;
+    border-radius: 67.525px;
+    overflow: hidden;
+    background: #ff3232;
+    background: linear-gradient(to right, #2106b5 0%, #5b49c1 79.04%, #2800ff 99.45%);
+}
+
+.grayback_js {
+    position: relative;
+    border-bottom-right-radius: 67.525px;
+    border-top-right-radius: 67.525px;
+    left: 78%;
+    width: 100%;
+    height: 100%;
+    background-color: #bcbbf2;
+}
+
+.grayback_react {
+    position: relative;
+    border-bottom-right-radius: 67.525px;
+    border-top-right-radius: 67.525px;
+    left: 68%;
+    width: 100%;
+    height: 100%;
+    background-color: #bcbbf2;
+}
+
+.grayback_html {
+    position: relative;
+    border-bottom-right-radius: 67.525px;
+    border-top-right-radius: 67.525px;
+    left: 90%;
+    width: 100%;
+    height: 100%;
+    background-color: #bcbbf2;
+}
+
+.grayback_css {
+    position: relative;
+    border-bottom-right-radius: 67.525px;
+    border-top-right-radius: 67.525px;
+    left: 70%;
+    width: 100%;
+    height: 100%;
+    background-color: #bcbbf2;
+}
+
+.grayback_git {
+    position: relative;
+    border-bottom-right-radius: 67.525px;
+    border-top-right-radius: 67.525px;
+    left: 73%;
+    width: 100%;
+    height: 100%;
+    background-color: #bcbbf2;
+}

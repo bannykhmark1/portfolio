@@ -1,0 +1,70 @@
+$color-primary: #2909d5;
+
+.inform_container {
+    display: flex;
+    margin: 0 auto;
+    width: 1270px;
+    margin-top: 230px;
+}
+
+.mark_inform {
+    width: 470px;
+    height: 551px;
+}
+
+.information {
+    margin-top: -46px;
+    margin-left: 130px;
+    border-bottom: 1px solid;
+
+    border-image-source: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 6%,
+        rgba(3, 0, 167, 0.56) 60%,
+        rgba(255, 255, 255, 6%)
+    );
+    border-image-slice: 1;
+}
+
+.about_me {
+    display: flex;
+    align-items: center;
+
+    h1 {
+        margin-left: 9px;
+        margin-right: 9px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 39px;
+        color: #2106b5;
+    }
+}
+
+.content_inform {
+    font-family: "Montserrat";
+    font-style: normal;
+    p {
+        font-size: 25px;
+        line-height: 148.02%;
+        font-weight: 500;
+    }
+    .location,
+    .email {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 144.52%;
+        letter-spacing: -0.03em;
+    }
+}
+
+.contact_inform {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 12px;
+    a:not(:last-child) {
+        margin-right: 35px;
+    }
+}
+.container_border_and_heading {
+    display: flex;
+}
