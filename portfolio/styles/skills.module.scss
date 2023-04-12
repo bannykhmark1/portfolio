@@ -3,7 +3,14 @@ $color-skills: #2408ba;
 .skills_container {
     margin: 0 auto;
     margin-top: 350px;
+    margin-bottom: 350px;
     width: 1270px;
+}
+
+.skills__container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
 }
 
 .skills {
@@ -40,8 +47,6 @@ $color-skills: #2408ba;
 }
 
 .all_skills {
-    margin-top: 100px;
-    width: 100%;
     p {
         font-family: "Montserrat";
         font-style: normal;
@@ -130,4 +135,20 @@ $color-skills: #2408ba;
     width: 100%;
     height: 100%;
     background-color: #bcbbf2;
+}
+
+.btn_go_to_portfolio {
+    align-self: center;
+
+    button {
+        background-color: #fff;
+        padding: 18px 30px 18px 30px;
+        color: $primary_blue;
+        font-family: "Montserrat";
+        font-size: 24px;
+        line-height: 29px;
+        border: 1px solid;
+        border-color: linear-gradient(92.86deg, #2909d5 0%, #2909d5 21.15%, #cec5ff 72.19%, #2909d5 100%);
+        border-radius: 20px;
+    }
 }

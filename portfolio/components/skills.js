@@ -65,8 +65,11 @@ export default function Skills() {
               </div>
             </div>
           </div>
-          <div className={skills.btn_go_to_portfolio}></div>
+          <div className={skills.btn_go_to_portfolio}>
+            <button> Посмотреть профиль</button>
+          </div>
         </div>
+        <div className={skills.front_end}></div>
       </div>
     </>
   );
