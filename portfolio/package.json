@@ -14,7 +14,10 @@
     "next": "13.2.4",
     "node": "^19.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-alice-carousel": "^2.7.1",
+    "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "swiper": "^9.2.0"
   },
   "devDependencies": {
     "sass": "^1.59.3"

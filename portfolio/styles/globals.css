@@ -14,3 +14,8 @@ body {
     margin: 0;
     padding: 10px;
 }
+
+.mySwiper {
+    display: flex;
+    margin: 0 auto;
+}
