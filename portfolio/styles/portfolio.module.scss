@@ -5,6 +5,11 @@ $color-primary: #2106b5;
     margin-top: 230px;
 }
 
+.swiperSlide {
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     margin-bottom: 100px;
     span {
@@ -16,9 +21,4 @@ $color-primary: #2106b5;
         line-height: 134.52%;
         letter-spacing: -0.03em;
     }
-}
-
-.swiper {
-    display: flex;
-    justify-content: center;
 }

@@ -26,16 +26,20 @@ export default function Portfolio() {
             modules={[Navigation, Pagination, Mousewheel, Keyboard]}
             className="mySwiper"
           >
-            <SwiperSlide>
-              <div className={portfolio.calculator}>
+            <SwiperSlide className={portfolio.swiperSlide}>
+              <a href="#">
                 <Image src={calculator} alt="Picture of the author" />
-              </div>
+              </a>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image src={construct} alt="Picture of the author" />
+            <SwiperSlide className={portfolio.swiperSlide}>
+              <a href="#">
+                <Image src={construct} alt="Picture of the author" />
+              </a>
             </SwiperSlide>
-            <SwiperSlide>
-              <Image src={portfolios} alt="Picture of the author" />
+            <SwiperSlide className={portfolio.swiperSlide}>
+              <a href="#">
+                <Image src={portfolios} alt="Picture of the author" />
+              </a>
             </SwiperSlide>
           </Swiper>
         </div>
