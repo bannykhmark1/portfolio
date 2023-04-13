@@ -8,10 +8,35 @@ $color-primary: #2106b5;
 .swiperSlide {
     display: flex;
     justify-content: center;
+    margin: 50px;
+    align-self: center;
+    a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        justify-content: center;
+        text-decoration: none;
+    }
+    span {
+        margin-top: 25px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 29.4222px;
+        line-height: 134.52%;
+        letter-spacing: -0.03em;
+        background: linear-gradient(92.86deg, #2909d5 0%, #2909d5 21.15%, #5badf8 64.37%, #2909d5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
 }
 
 .title {
     margin-bottom: 100px;
+    margin-left: 300px;
     span {
         color: $color-primary;
         font-family: "Montserrat Alternates";

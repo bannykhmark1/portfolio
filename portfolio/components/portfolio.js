@@ -27,19 +27,38 @@ export default function Portfolio() {
             className="mySwiper"
           >
             <SwiperSlide className={portfolio.swiperSlide}>
-              <a href="#">
-                <Image src={calculator} alt="Picture of the author" />
-              </a>
+              <div className={portfolio.project}>
+                <a href="#">
+                  <Image src={calculator} alt="Picture of the author" />
+                  <span>Calculator</span>
+                </a>
+              </div>
             </SwiperSlide>
             <SwiperSlide className={portfolio.swiperSlide}>
-              <a href="#">
-                <Image src={construct} alt="Picture of the author" />
-              </a>
+              <div className={portfolio.project}>
+                <a href="#">
+                  <Image
+                    src={construct}
+                    alt="Picture of the author"
+                    width={480}
+                    height={295}
+                  />
+                  <span>Construct</span>
+                </a>
+              </div>
             </SwiperSlide>
             <SwiperSlide className={portfolio.swiperSlide}>
-              <a href="#">
-                <Image src={portfolios} alt="Picture of the author" />
-              </a>
+              <div className={portfolio.project}>
+                <a href="#">
+                  <Image
+                    src={portfolios}
+                    alt="Picture of the author"
+                    width={480}
+                    height={295}
+                  />
+                  <span>Portfolio</span>
+                </a>
+              </div>
             </SwiperSlide>
           </Swiper>
         </div>
