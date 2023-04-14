@@ -4,8 +4,7 @@ import mark_inform from "../public/images/mark-inform.jpg";
 import telegram from "../public/images/telegram.svg";
 import git from "../public/images/git.svg";
 import inst from "../public/images/inst.svg";
-import border_left from "../public/images/border_left_about_me.svg";
-import border_right from "../public/images/border_right_about_me.svg";
+import BorderAroundText from "@/utils/borderAroundText";
 export default function Inform() {
   return (
     <>
@@ -19,12 +18,10 @@ export default function Inform() {
         </div>
         <div className={inform.information}>
           <div className={inform.about_me}>
-            <div className={inform.inform_border_right}>
-              <Image src={border_right} height={1} />
-            </div>
-            <h1>Обо мне</h1>
-            <div className={inform.inform_border_left}>
-              <Image src={border_left} height={1} />
+            <div className={inform.title}>
+              <div className={inform.border_left}></div>
+              <span>Обо мне</span>
+              <div className={inform.border_right}></div>
             </div>
           </div>
           <div className={inform.content_inform}>

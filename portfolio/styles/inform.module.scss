@@ -16,7 +16,6 @@ $color-primary: #2909d5;
     margin-top: -46px;
     margin-left: 130px;
     border-bottom: 1px solid;
-
     border-image-source: linear-gradient(
         90deg,
         rgba(255, 255, 255, 0) 6%,
@@ -27,9 +26,9 @@ $color-primary: #2909d5;
 }
 
 .about_me {
-    display: flex;
     align-items: center;
-
+    white-space: nowrap;
+    width: 100%;
     h1 {
         margin-left: 9px;
         margin-right: 9px;
@@ -37,6 +36,35 @@ $color-primary: #2909d5;
         font-weight: 700;
         font-size: 39px;
         color: #2106b5;
+    }
+
+    .title {
+        display: flex;
+        .border_left {
+            border-bottom: 1px solid;
+            border-image: linear-gradient(45deg, #2909d4 5%, #fff 95%) 1;
+            align-self: center;
+            transform: rotate(180deg);
+            margin-right: 40px;
+            width: 100%;
+        }
+        .border_right {
+            align-self: center;
+            border-bottom: 1px solid;
+            border-image: linear-gradient(45deg, #fff 0.1%, #2909d4 100%) 1;
+            transform: rotate(180deg);
+            margin-left: 40px;
+            width: 100%;
+        }
+        span {
+            color: $color-primary;
+            font-family: "Montserrat Alternates";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 134.52%;
+            letter-spacing: -0.03em;
+        }
     }
 }
 
