@@ -8,10 +8,6 @@ $sides: top, bottom;
     margin-top: 47px;
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
-
-    border-image-source: linear-gradient(90deg, rgba(255, 255, 255, 0) 30%, rgba(3, 0, 167, 0.56) 70%);
-    border-image-slice: 1;
-    border-radius: 10px;
 }
 
 .header {

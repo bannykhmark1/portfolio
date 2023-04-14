@@ -1,0 +1,72 @@
+$black: #000;
+
+.background_footer {
+    width: 100%;
+    background: linear-gradient(0.05deg, #2106b5 -250.06%, rgba(33, 6, 181, 0) 70.72%);
+    opacity: 1;
+    margin-bottom: 200px;
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 1270px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 115px;
+    .btn {
+        margin-top: 230px;
+
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 148.02%;
+        color: $black;
+    }
+    .btn:not(:last-child) {
+        margin-right: 112px;
+    }
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+    a:not(:last-child) {
+        margin-right: 35px;
+    }
+}
+
+.icon {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    .tag_icons {
+        align-self: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        margin-right: 4px;
+        font-weight: 600;
+        font-size: 18.5976px;
+        line-height: 148.02%;
+        text-transform: uppercase;
+        background: linear-gradient(179.45deg, #000000 -37.27%, #492ce3 99.53%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .name {
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18.5976px;
+        line-height: 148.02%;
+        color: $black;
+        text-transform: uppercase;
+    }
+}
