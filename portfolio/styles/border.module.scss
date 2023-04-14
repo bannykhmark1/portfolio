@@ -1,0 +1,31 @@
+$color-primary: #2106b5;
+
+.title {
+    display: flex;
+    margin-bottom: 100px;
+    .border_left {
+        border-bottom: 1px solid;
+        border-image: linear-gradient(45deg, #2909d4 5%, #fff 95%) 1;
+        align-self: center;
+        transform: rotate(180deg);
+        margin-right: 40px;
+        width: 270px;
+    }
+    .border_right {
+        align-self: center;
+        border-bottom: 1px solid;
+        border-image: linear-gradient(45deg, #fff 0.1%, #2909d4 100%) 1;
+        transform: rotate(180deg);
+        margin-left: 40px;
+        width: 100%;
+    }
+    span {
+        color: $color-primary;
+        font-family: "Montserrat Alternates";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 134.52%;
+        letter-spacing: -0.03em;
+    }
+}
