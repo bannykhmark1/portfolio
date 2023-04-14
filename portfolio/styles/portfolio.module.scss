@@ -6,7 +6,8 @@ $color-primary: #2106b5;
 }
 
 .project {
-    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .swiperSlide {

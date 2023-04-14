@@ -27,7 +27,7 @@ export default function Portfolio() {
           >
             <SwiperSlide className={portfolio.swiperSlide}>
               <div className={portfolio.project}>
-                <a href="#">
+                <a href="https://bannykhmark1.github.io/calculator/">
                   <Image src={calculator} alt="Picture of the author" />
                   <span>Calculator</span>
                 </a>
@@ -35,20 +35,20 @@ export default function Portfolio() {
             </SwiperSlide>
             <SwiperSlide className={portfolio.swiperSlide}>
               <div className={portfolio.project}>
-                <a href="#">
+                <a href="https://bannykhmark1.github.io/konstruct/">
                   <Image
                     src={construct}
                     alt="Picture of the author"
                     width={480}
                     height={295}
                   />
-                  <span>Construct</span>
+                  <span>Konstruct</span>
                 </a>
               </div>
             </SwiperSlide>
             <SwiperSlide className={portfolio.swiperSlide}>
               <div className={portfolio.project}>
-                <a href="#">
+                <a href="https://bannykhmark1.github.io/portfolios/">
                   <Image
                     src={portfolios}
                     alt="Picture of the author"
