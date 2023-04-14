@@ -14,8 +14,11 @@ export default function Portfolio() {
     <>
       <div className={portfolio.portfolio_container}>
         <div className={portfolio.title}>
+          <div className={portfolio.border_left}></div>
           <span>Портфолио</span>
+          <div className={portfolio.border_right}></div>
         </div>
+
         <div className={portfolio.swiper}>
           <Swiper
             cssMode={true}
