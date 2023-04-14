@@ -7,15 +7,14 @@ import css3 from "../public/images/css3.svg";
 import html from "../public/images/html.svg";
 import react from "../public/images/react.svg";
 import Image from "next/image";
+import BorderAroundText from "@/utils/borderAroundText";
 
 export default function Skills() {
   return (
     <>
       <div className={skills.skills_container}>
         <div className={skills.container_border_and_heading}>
-          <div className={skills.skills}>
-            <h1>Навыки</h1>
-          </div>
+          <BorderAroundText>Навыки</BorderAroundText>
         </div>
         <div className={skills.skills__container}>
           <div className={skills.all_skills}>

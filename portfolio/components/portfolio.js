@@ -9,16 +9,12 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import BorderAroundText from "@/utils/borderAroundText";
 export default function Portfolio() {
   return (
     <>
+      <BorderAroundText>Портфолио</BorderAroundText>
       <div className={portfolio.portfolio_container}>
-        <div className={portfolio.title}>
-          <div className={portfolio.border_left}></div>
-          <span>Портфолио</span>
-          <div className={portfolio.border_right}></div>
-        </div>
-
         <div className={portfolio.swiper}>
           <Swiper
             cssMode={true}
